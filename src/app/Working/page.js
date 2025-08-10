@@ -20,7 +20,7 @@ export default function HowSnappWorks() {
             <div className="w-14 h-14 mx-auto flex items-center justify-center rounded-full bg-orange-50">
               <FaFilm className="text-orange-500 text-2xl" />
             </div>
-            <h3 className="mt-4 font-semibold text-lg flex items-center justify-center gap-2">
+            <h3 className="mt-4 font-semibold text-lg flex items-center justify-center gap-2 text-gray-700">
               🎬 Interval Advertising
             </h3>
             <p className="text-gray-600 mt-2">
@@ -34,7 +34,7 @@ export default function HowSnappWorks() {
             <div className="w-14 h-14 mx-auto flex items-center justify-center rounded-full bg-blue-50">
               <FaStore className="text-blue-500 text-2xl" />
             </div>
-            <h3 className="mt-4 font-semibold text-lg flex items-center justify-center gap-2">
+            <h3 className="mt-4 font-semibold text-lg flex items-center justify-center gap-2 text-gray-700">
               🏪 Local Business Focus
             </h3>
             <p className="text-gray-600 mt-2">
@@ -48,7 +48,7 @@ export default function HowSnappWorks() {
             <div className="w-14 h-14 mx-auto flex items-center justify-center rounded-full bg-yellow-50">
               <FaMapMarkerAlt className="text-yellow-500 text-2xl" />
             </div>
-            <h3 className="mt-4 font-semibold text-lg flex items-center justify-center gap-2">
+            <h3 className="mt-4 font-semibold text-lg flex items-center justify-center gap-2 text-gray-700">
               📍 Hyperlocal Targeting
             </h3>
             <p className="text-gray-600 mt-2">
