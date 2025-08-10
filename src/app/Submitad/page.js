@@ -259,7 +259,7 @@ export default function SubmitAd() {
               placeholder="Describe your advertisement in Telugu, Hindi, or English..."
               required
               rows="4"
-              className="w-full border border-gray-200 rounded-lg p-3 placeholder-gray-400"
+              className="w-full border border-gray-200 rounded-lg p-3 placeholder-gray-400 text-gray-600"
             ></textarea>
             <p className="text-gray-500 text-sm mt-1">
               Include your business details in Telugu, Hindi, or English
