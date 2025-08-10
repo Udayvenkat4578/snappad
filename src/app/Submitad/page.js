@@ -110,7 +110,7 @@ export default function SubmitAd() {
           {/* Full Name */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <label className="block mb-1 font-medium">
+              <label className="block mb-1 font-medium text-gray-700">
                 <User className="inline mr-2 text-gray-500" size={18} />
                 Full Name <span className="text-red-500">*</span>
               </label>
@@ -121,13 +121,13 @@ export default function SubmitAd() {
                 onChange={handleChange}
                 placeholder="Enter your full name"
                 required
-                className="w-full border rounded-lg p-3"
+                className="w-full border rounded-lg p-3 placeholder-gray-300"
               />
             </div>
 
             {/* Phone */}
             <div>
-              <label className="block mb-1 font-medium">
+              <label className="block mb-1 font-medium text-gray-700">
                 <Phone className="inline mr-2 text-gray-500" size={18} />
                 Phone Number <span className="text-red-500">*</span>
               </label>
@@ -138,13 +138,13 @@ export default function SubmitAd() {
                 onChange={handleChange}
                 placeholder="9876543210"
                 required
-                className="w-full border rounded-lg p-3"
+                className="w-full border rounded-lg p-3 placeholder-gray-300"
               />
             </div>
 
             {/* Email */}
             <div>
-              <label className="block mb-1 font-medium">
+              <label className="block mb-1 font-medium text-gray-700">
                 <Mail className="inline mr-2 text-gray-500" size={18} />
                 Email (Optional)
               </label>
@@ -154,13 +154,13 @@ export default function SubmitAd() {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="your@email.com"
-                className="w-full border rounded-lg p-3"
+                className="w-full border rounded-lg p-3 placeholder-gray-300"
               />
             </div>
 
             {/* Location */}
             <div>
-              <label className="block mb-1 font-medium">
+              <label className="block mb-1 font-medium text-gray-700">
                 <MapPin className="inline mr-2 text-gray-500" size={18} />
                 Location/Area <span className="text-red-500">*</span>
               </label>
@@ -171,13 +171,13 @@ export default function SubmitAd() {
                 onChange={handleChange}
                 placeholder="City or locality"
                 required
-                className="w-full border rounded-lg p-3"
+                className="w-full border rounded-lg p-3 placeholder-gray-300"
               />
             </div>
 
             {/* Theatre */}
             <div>
-              <label className="block mb-1 font-medium">
+              <label className="block mb-1 font-medium text-gray-700">
                 <Film className="inline mr-2 text-gray-500" size={18} />
                 Specific Theatre (Optional)
               </label>
@@ -187,18 +187,18 @@ export default function SubmitAd() {
                 value={formData.theatre}
                 onChange={handleChange}
                 placeholder="Enter theatre name if you have a preference"
-                className="w-full border rounded-lg p-3"
+                className="w-full border rounded-lg p-3 placeholder-gray-300"
               />
             </div>
           </div>
 
           {/* Language */}
           <div className="mt-6">
-            <label className="block mb-2 font-medium">
+            <label className="block mb-2 font-medium text-gray-700">
               <Languages className="inline mr-2 text-gray-500" size={18} />
               Advertisement Language <span className="text-red-500">*</span>
             </label>
-            <div className="flex gap-6">
+            <div className="flex gap-6 text-gray-700">
               {["English", "తెలుగు", "हिंदी"].map((lang) => (
                 <label key={lang} className="flex items-center gap-2">
                   <input
@@ -217,11 +217,11 @@ export default function SubmitAd() {
 
           {/* Ad Type */}
           <div className="mt-6">
-            <label className="block mb-2 font-medium">
+            <label className="block mb-2 font-medium text-gray-700">
               Advertisement Type <span className="text-red-500">*</span>
             </label>
             <div className="flex gap-6">
-              <label className="flex items-center gap-2">
+              <label className="flex items-center gap-2 text-gray-700">
                 <input
                   type="radio"
                   name="adType"
@@ -233,7 +233,7 @@ export default function SubmitAd() {
                 <FaCamera className="text-orange-500" />Image
               </label>
 
-              <label className="flex items-center gap-2">
+              <label className="flex items-center gap-2 text-gray-700">
                 <input
                   type="radio"
                   name="adType"
@@ -249,7 +249,7 @@ export default function SubmitAd() {
 
           {/* Description */}
           <div className="mt-6">
-            <label className="block mb-2 font-medium">
+            <label className="block mb-2 font-medium text-gray-700">
               Message/Ad Description <span className="text-red-500">*</span>
             </label>
             <textarea
@@ -259,7 +259,7 @@ export default function SubmitAd() {
               placeholder="Describe your advertisement in Telugu, Hindi, or English..."
               required
               rows="4"
-              className="w-full border rounded-lg p-3"
+              className="w-full border rounded-lg p-3 placeholder-gray-300"
             ></textarea>
             <p className="text-gray-500 text-sm mt-1">
               Include your business details in Telugu, Hindi, or English
