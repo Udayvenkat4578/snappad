@@ -103,7 +103,7 @@ export default function SubmitAd() {
         >
           <div className="flex items-center gap-2 mb-6">
             <Film className="text-orange-500" size={28} />
-            <h2 className="text-2xl font-semibold">Ad Details</h2>
+            <h2 className="text-2xl font-semibold text-gray-700">Ad Details</h2>
           </div>
 
           {/* --- Your form fields remain exactly as before --- */}
@@ -121,7 +121,7 @@ export default function SubmitAd() {
                 onChange={handleChange}
                 placeholder="Enter your full name"
                 required
-                className="w-full border rounded-lg p-3 placeholder-gray-300"
+                className="w-full border border-gray-200 rounded-lg p-3 placeholder-gray-400"
               />
             </div>
 
@@ -138,7 +138,7 @@ export default function SubmitAd() {
                 onChange={handleChange}
                 placeholder="9876543210"
                 required
-                className="w-full border rounded-lg p-3 placeholder-gray-300"
+                className="w-full border border-gray-200 rounded-lg p-3 placeholder-gray-400 "
               />
             </div>
 
@@ -154,7 +154,7 @@ export default function SubmitAd() {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="your@email.com"
-                className="w-full border rounded-lg p-3 placeholder-gray-300"
+                className="w-full border border-gray-200 rounded-lg p-3 placeholder-gray-400"
               />
             </div>
 
@@ -171,7 +171,7 @@ export default function SubmitAd() {
                 onChange={handleChange}
                 placeholder="City or locality"
                 required
-                className="w-full border rounded-lg p-3 placeholder-gray-300"
+                className="w-full border border-gray-200 rounded-lg p-3 placeholder-gray-400"
               />
             </div>
 
@@ -187,7 +187,7 @@ export default function SubmitAd() {
                 value={formData.theatre}
                 onChange={handleChange}
                 placeholder="Enter theatre name if you have a preference"
-                className="w-full border rounded-lg p-3 placeholder-gray-300"
+                className="w-full border border-gray-200 rounded-lg p-3 placeholder-gray-400"
               />
             </div>
           </div>
@@ -259,7 +259,7 @@ export default function SubmitAd() {
               placeholder="Describe your advertisement in Telugu, Hindi, or English..."
               required
               rows="4"
-              className="w-full border rounded-lg p-3 placeholder-gray-300"
+              className="w-full border border-gray-200 rounded-lg p-3 placeholder-gray-400"
             ></textarea>
             <p className="text-gray-500 text-sm mt-1">
               Include your business details in Telugu, Hindi, or English
